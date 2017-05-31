@@ -1,0 +1,32 @@
+= Sports Teams API
+:toc: left
+:toclevels: 3
+:source-highlighter: highlightjs
+:sectlinks:
+
+== Introduction
+
+The Sports Teams API is a generic API that has no use in the real world. It exposes an API for ficticious sports team data.
+
+== Resources
+
+=== Teams
+
+==== Get a Collection of Teams
+
+This endpoint allows for the retrieval of a collection of teams.
+
+===== cURL Request
+
+include::{snippets}/get-all-teams/curl-request.adoc[]
+
+The request can be limited to a number of teams by passing in a request parameter in the query string.
+
+===== Request
+
+include::{snippets}/get-all-teams/http-request.adoc[]
+
+===== Response
+
+include::{snippets}/get-all-teams/http-response.adoc[]
+
