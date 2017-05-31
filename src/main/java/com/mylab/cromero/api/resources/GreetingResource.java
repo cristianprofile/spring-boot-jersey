@@ -1,6 +1,6 @@
-package com.cassiomolin.example.api.resources;
+package com.mylab.cromero.api.resources;
 
-import com.cassiomolin.example.api.service.User;
+import com.mylab.cromero.api.service.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

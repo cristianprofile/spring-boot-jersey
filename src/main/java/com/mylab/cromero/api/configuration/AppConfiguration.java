@@ -1,6 +1,6 @@
-package com.cassiomolin.example.api.configuration;
+package com.mylab.cromero.api.configuration;
 
-import com.cassiomolin.example.api.JerseyConfig;
+import com.mylab.cromero.api.JerseyConfig;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 

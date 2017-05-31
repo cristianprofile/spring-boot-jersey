@@ -1,6 +1,6 @@
-package com.cassiomolin.example;
+package com.mylab.cromero;
 
-import com.cassiomolin.example.api.configuration.AppConfiguration;
+import com.mylab.cromero.api.configuration.AppConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

@@ -1,4 +1,4 @@
-package com.cassiomolin.example.api;
+package com.mylab.cromero.api;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
@@ -13,6 +13,6 @@ public class JerseyConfig extends ResourceConfig {
 
     @PostConstruct
     private void init() {
-        packages("com.cassiomolin.example.api.resources");
+        packages("com.mylab.cromero.api.resources");
     }
 }

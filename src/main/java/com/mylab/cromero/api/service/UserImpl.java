@@ -1,4 +1,4 @@
-package com.cassiomolin.example.api.service;
+package com.mylab.cromero.api.service;
 
 import org.springframework.stereotype.Service;
 

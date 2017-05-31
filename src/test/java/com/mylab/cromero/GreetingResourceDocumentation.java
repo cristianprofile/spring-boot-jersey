@@ -1,6 +1,6 @@
-package com.cassiomolin.example;
+package com.mylab.cromero;
 
-import com.cassiomolin.example.api.service.User;
+import com.mylab.cromero.api.service.User;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -54,7 +54,7 @@ public class GreetingResourceDocumentation {
         Client client = ClientBuilder.newClient();
         Response response = client.target(uri).path("api").path("greetings")
                 .register(documentationConfiguration(this.restDocumentation))
-                .register(document("get-all-teams"))
+                .register(document("get-all-greeting"))
 
                                   .request(MediaType.TEXT_PLAIN).get();
    
